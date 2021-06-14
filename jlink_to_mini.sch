@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -585,7 +585,9 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="CON1" library="jtag" deviceset="JTAG-20_DEVICE" device=""/>
-<part name="P1" library="jtag" deviceset="STLINKV3_STDC14" device=""/>
+<part name="P1" library="jtag" deviceset="STLINKV3_STDC14" device="">
+<attribute name="OC_TME" value="ZL322-2X7P "/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="martonmiklos" deviceset="A4L-LOC" device=""/>
@@ -602,6 +604,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="P1" gate="G$1" x="154.94" y="96.52" smashed="yes">
 <attribute name="VALUE" x="151.13" y="83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="151.13" y="107.442" size="1.778" layer="95"/>
+<attribute name="OC_TME" x="154.94" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="106.68" y="78.74" smashed="yes">
 <attribute name="VALUE" x="104.14" y="76.2" size="1.778" layer="96"/>

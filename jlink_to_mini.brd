@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -562,6 +562,7 @@ Réz vastagság : 18; 35; 70 mikrométer&lt;br&gt;
 <elements>
 <element name="P1" library="jtag" package="FTSH-107-01-L-DV-K" value="STLINKV3_STDC14" x="11.898" y="11.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.438" y="5.985" size="1.016" layer="25" ratio="18" rot="R180"/>
+<attribute name="OC_TME" value="ZL322-2X7P " x="11.898" y="11.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.438" y="18.05" size="0.8128" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="CON1" library="jtag" package="2X10/90" value="JTAG-20_DEVICE" x="-1.31" y="12.97" smashed="yes" rot="R90">
